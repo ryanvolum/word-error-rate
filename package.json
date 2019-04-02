@@ -1,11 +1,15 @@
 {
   "name": "word-error-rate",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A set of tools to calculate edit distance and scores on a per word basis",
   "main": "dist/app.js",
   "dependencies": {
     "levenshtein-edit-distance": "^2.0.3",
     "object-hash": "^1.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanvolum/word-error-rate"
   },
   "devDependencies": {},
   "scripts": {
