@@ -1,6 +1,6 @@
 {
   "name": "word-error-rate",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A set of tools to calculate edit distance and scores on a per word basis",
   "main": "dist/app.js",
   "dependencies": {
