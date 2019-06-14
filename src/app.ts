@@ -7,7 +7,7 @@ export const createHashArray = (s: string) => {
 }
 
 export const calculateEditDistance = (incoming: string, expected: string) => {
-  if (incoming.length === 0 || expected.length === 0) return Math.max(incoming.length, expected.length);
+  if (incoming.length === 0 || expected.length === 0) return Math.max(incoming.split(" ").length, expected.split(" ").length);
 
   let [incomingHashes, expectedHashes] = [createHashArray(incoming), createHashArray(expected)];
   let [length, height] = [incomingHashes.length, expectedHashes.length];
